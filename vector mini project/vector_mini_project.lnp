@@ -1,0 +1,15 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\smart_lab_guardian.o"
+".\delay.o"
+".\kpm.o"
+".\lcd.o"
+".\rtc.o"
+".\ext_int.o"
+".\ir.o"
+".\flag.o"
+".\output.o"
+--strict --scatter ".\vector_mini_project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\vector_mini_project.map" -o .\vector_mini_project.axf

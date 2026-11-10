@@ -1,0 +1,69 @@
+Dependencies for Project 'vector_mini_project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\smart_lab_guardian.c)(0x6AF18E18)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\smart_lab_guardian.o --omf_browse .\smart_lab_guardian.crf --depend .\smart_lab_guardian.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (lcd.h)(0x6AEEBA14)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+I (defines.h)(0x6AEEBB67)
+I (lcd_defines.h)(0x6AF18108)
+I (delay.h)(0x6AED9B65)
+I (types.h)(0x6AEECFFC)
+I (kpm.h)(0x6AEEB21B)
+I (kpm_defines.h)(0x6AED9859)
+I (ext_int_defines.h)(0x6AED9B2F)
+I (ext_int.h)(0x6AED9ADD)
+I (rtc.h)(0x6AF15653)
+I (rtc_defines.h)(0x6AF1875F)
+I (ir.h)(0x6AEEF310)
+I (ir_defines.h)(0x6AEEF303)
+I (flag.h)(0x6AF18B15)
+I (output.h)(0x6AF18B0E)
+F (.\delay.c)(0x6AED9AA8)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x6AEECFFC)
+F (.\kpm.c)(0x6AF188EE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (kpm.h)(0x6AEEB21B)
+I (types.h)(0x6AEECFFC)
+I (kpm_defines.h)(0x6AED9859)
+I (lcd.h)(0x6AEEBA14)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+I (defines.h)(0x6AEEBB67)
+I (lcd_defines.h)(0x6AF18108)
+I (delay.h)(0x6AED9B65)
+F (.\lcd.c)(0x6AF188EE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (defines.h)(0x6AEEBB67)
+I (lcd_defines.h)(0x6AF18108)
+I (delay.h)(0x6AED9B65)
+I (types.h)(0x6AEECFFC)
+F (.\rtc.c)(0x6AF1BDCD)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc.o --omf_browse .\rtc.crf --depend .\rtc.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (rtc_defines.h)(0x6AF1875F)
+I (rtc.h)(0x6AF15653)
+I (types.h)(0x6AEECFFC)
+I (lcd.h)(0x6AEEBA14)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+I (defines.h)(0x6AEEBB67)
+I (lcd_defines.h)(0x6AF18108)
+I (delay.h)(0x6AED9B65)
+I (flag.h)(0x6AF18B15)
+I (kpm.h)(0x6AEEB21B)
+F (.\ext_int.c)(0x6AF188EE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ext_int.o --omf_browse .\ext_int.crf --depend .\ext_int.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (types.h)(0x6AEECFFC)
+I (ext_int.h)(0x6AED9ADD)
+I (ext_int_defines.h)(0x6AED9B2F)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+F (.\ir.c)(0x6AEEF18A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ir.o --omf_browse .\ir.crf --depend .\ir.d)
+I (types.h)(0x6AEECFFC)
+I (ir.h)(0x6AEEF310)
+I (ir_defines.h)(0x6AEEF303)
+I (C:\Keil\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+I (delay.h)(0x6AED9B65)
+F (.\flag.c)(0x6AF18A96)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\flag.o --omf_browse .\flag.crf --depend .\flag.d)
+I (types.h)(0x6AEECFFC)
+F (.\output.c)(0x6AF18B0E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --diag_suppress 47-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\output.o --omf_browse .\output.crf --depend .\output.d)
+I (C:\Keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
+I (delay.h)(0x6AED9B65)
+I (types.h)(0x6AEECFFC)
+I (output.h)(0x6AF18B0E)
