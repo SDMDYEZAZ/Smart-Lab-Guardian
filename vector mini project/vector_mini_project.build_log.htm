@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\vector mini project\vector_mini_project.uvproj
+Project File Date:  11/11/2026
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling pwd.c...
+linking...
+Program Size: Code=7524 RO-data=32 RW-data=44 ZI-data=1260  
+FromELF: creating hex file...
+".\vector_mini_project.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+ a newline
+  #endif  /* LAB_DEFINES_H */
+lab.h(40): warning:  #1-D: last line of file ends without a newline
+  #endif  /* LAB_H */
+lab.c(198): warning:  #1-D: last line of file ends without a newline
+  }
+lab.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=7524 RO-data=32 RW-data=44 ZI-data=1260  
+FromELF: creating hex file...
+".\vector_mini_project.axf" - 0 Error(s), 4 Warning(s).
+project.axf" - 0 Error(s), 5 Warning(s).
+ end of source:  #67: expected a "}"
+lab.c(33): warning:  #550-D: variable "dev1" was set but never used
+  static u8  dev1 = 0;              /* Device 1 (LED1) state */
+lab.c(34): warning:  #550-D: variable "dev2" was set but never used
+  static u8  dev2 = 0;              /* Device 2 (LED2) state */
+lab.c(35): warning:  #550-D: variable "authenticated" was set but never used
+  static u8  authenticated = 0;     /* 1 = user logged in */
+lab.c(36): warning:  #177-D: variable "last_tog" was declared but never referenced
+  static u32 last_tog = 2;          /* last RC5 toggle bit, 2 = none yet */
+lab.c: 9 warnings, 3 errors
+".\vector_mini_project.axf" - 3 Error(s), 9 Warning(s).
+Target not created
+mbol LAB_SHOW_CLOCK (referred from smart_lab_guardian.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 9 error messages.
+".\vector_mini_project.axf" - 9 Error(s), 3 Warning(s).
+Target not created
+ion "delay_s" declared implicitly
+        delay_s(2);
+pwd.c(43): warning:  #223-D: function "CMD_LCD" declared implicitly
+        CMD_LCD(CLEAR_LCD);
+pwd.c(43): error:  #20: identifier "CLEAR_LCD" is undefined
+        CMD_LCD(CLEAR_LCD);
+pwd.c(44): warning:  #223-D: function "STR_LCD" declared implicitly
+        STR_LCD("ENTER PASS:");
+pwd.c(45): error:  #20: identifier "GOTO_LINE2_POS0" is undefined
+        CMD_LCD(GOTO_LINE2_POS0);
+pwd.c(54): warning:  #223-D: function "READ_NUM2" declared implicitly
+        READ_NUM2(&pwd, &lastKey);
+pwd.c(60): warning:  #223-D: function "CMD_LCD" declared implicitly
+        CMD_LCD(CLEAR_LCD);
+pwd.c(60): error:  #20: identifier "CLEAR_LCD" is undefined
+        CMD_LCD(CLEAR_LCD);
+pwd.c(61): warning:  #223-D: function "STR_LCD" declared implicitly
+        STR_LCD("WRONG PASS");
+pwd.c(62): error:  #20: identifier "GOTO_LINE2_POS0" is undefined
+        CMD_LCD(GOTO_LINE2_POS0);
+pwd.c(64): warning:  #223-D: function "CHAR_LCD" declared implicitly
+        CHAR_LCD('0' + (MAX_ATTEMPTS - attempts));
+pwd.c(65): warning:  #223-D: function "delay_s" declared implicitly
+        delay_s(1);
+pwd.c(79): warning:  #223-D: function "CMD_LCD" declared implicitly
+                        CMD_LCD(CLEAR_LCD);
+pwd.c(79): error:  #20: identifier "CLEAR_LCD" is undefined
+                        CMD_LCD(CLEAR_LCD);
+pwd.c(80): warning:  #223-D: function "STR_LCD" declared implicitly
+                        STR_LCD("PASS MATCH");
+pwd.c(81): warning:  #223-D: function "delay_s" declared implicitly
+                        delay_s(1);
+pwd.c(89): warning:  #223-D: function "CMD_LCD" declared implicitly
+        CMD_LCD(CLEAR_LCD);
+pwd.c(89): error:  #20: identifier "CLEAR_LCD" is undefined
+        CMD_LCD(CLEAR_LCD);
+pwd.c(90): warning:  #223-D: function "STR_LCD" declared implicitly
+        STR_LCD("FAILED");
+pwd.c(91): warning:  #223-D: function "delay_s" declared implicitly
+        delay_s(2);
+pwd.c(99): warning:  #223-D: function "CMD_LCD" declared implicitly
+                CMD_LCD(CLEAR_LCD);
+pwd.c(99): error:  #20: identifier "CLEAR_LCD" is undefined
+                CMD_LCD(CLEAR_LCD);
+pwd.c(100): warning:  #223-D: function "STR_LCD" declared implicitly
+                STR_LCD("ACCESS GRANTED");
+pwd.c(101): warning:  #223-D: function "delay_s" declared implicitly
+                delay_s(1);
+pwd.c: 26 warnings, 10 errors
+".\vector_mini_project.axf" - 10 Error(s), 28 Warning(s).
+Target not created

@@ -1,0 +1,17 @@
+.\pwd.o: pwd.c
+.\pwd.o: types.h
+.\pwd.o: pwd_defines.h
+.\pwd.o: delay.h
+.\pwd.o: types.h
+.\pwd.o: lcd.h
+.\pwd.o: C:\Keil\ARM\Inc\Philips\LPC21XX.H
+.\pwd.o: defines.h
+.\pwd.o: lcd_defines.h
+.\pwd.o: delay.h
+.\pwd.o: types.h
+.\pwd.o: lcd_defines.h
+.\pwd.o: kpm.h
+.\pwd.o: types.h
+.\pwd.o: kpm_defines.h
+.\pwd.o: pwd.h
+.\pwd.o: types.h
