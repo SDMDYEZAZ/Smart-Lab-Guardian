@@ -31,7 +31,7 @@ The input devices send signals to the LPC2148 microcontroller. Based on the rece
 
 
 <p align="center">
-  <img src="proimages/rtc.png" width="500"
+  <img src="gifimages/rtc.png" width="500"
 </p>
 
 ## ⏰ Real-Time Clock (RTC) Module
