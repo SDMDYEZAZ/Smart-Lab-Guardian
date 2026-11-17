@@ -1,5 +1,9 @@
-# Smart-Lab-Guardian
-![My Image](proimages/circuit.png)
+<h1 align="center">Smart Lab Guardian</h1>
+<p align="center">
+  <img src="proimages/circuit.png" width="500"
+  alt="Circuit Diagram">
+</p>
+
 ## 🔷 System Block Diagram
 
 The Smart Lab Guardian system is designed using the LPC2148 microcontroller as its central processing unit. It receives inputs from multiple devices, processes them, and controls the output devices according to the programmed conditions.
