@@ -23,8 +23,8 @@ The Smart Lab Guardian system is designed using the LPC2148 microcontroller as i
 The input devices send signals to the LPC2148 microcontroller. Based on the received inputs and programmed logic, the microcontroller processes the information and controls the LCD, LEDs, and buzzer accordingly. The RTC provides time-related information for system operations.
 
 
-|=================================================================================|
-|=================================================================================|
+|===========================================================================|
+|===========================================================================|
 
 
 ![Preview](gifimages/rtc.png)
