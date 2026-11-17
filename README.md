@@ -54,7 +54,9 @@ The RTC module continuously maintains time and date information. The LPC2148 mic
 |==========================================================================|
 |==========================================================================|
 
-![Preview](gifimages/irreceiver.png)
+<p align="center">
+  <img src="gifimages/irreceiver.png" width="500"
+</p>
 
 
 ## 📡 IR Receiver Module
@@ -80,7 +82,9 @@ When a button is pressed on the IR remote, it transmits an infrared signal. The 
 |==========================================================================|
 
 
-![My Images](proimages/lcd.png)
+<p align="center">
+  <img src="proimages/lcd.png" width="500"
+</p>
 
 ## 📟 16×2 Alphanumeric LCD Display
 
@@ -108,7 +112,9 @@ The LPC2148 microcontroller sends commands and data to the LCD to display the re
 |==========================================================================|
 
 
-![My Images](proimages/kpm.png)
+<p align="center">
+  <img src="proimages/kpm.png" width="500"
+</p>
 
 ## 🔢 4×4 Matrix Keypad (KPM)
 
@@ -135,7 +141,9 @@ The keypad is interfaced with the LPC2148 microcontroller. When a key is pressed
 |==========================================================================|
 
 
-![Preview](gifimages/led.png)
+<p align="center">
+  <img src="gifimages/led.png" width="500"
+</p>
 
 ## 💡 Dual LED Indicator System
 
@@ -162,7 +170,9 @@ The two LEDs are connected to the GPIO pins of the LPC2148 microcontroller throu
 |==========================================================================|
 
 
-![Preview](gifimages/buzzer.png)
+<p align="center">
+  <img src="gifimages/buzzer.png" width="500"
+</p>
 
 ## 🔔 Buzzer Alert System
 
@@ -189,7 +199,9 @@ The buzzer is connected to a GPIO output pin of the LPC2148 microcontroller. Whe
 |==========================================================================|
 
 
-![Preview](gifimages/pushbutton.png)
+<p align="center">
+  <img src="gifimages/pushbutton.png" width="500"
+</p>
 
 ## 🔘 Dual Push Button Interface Using External Interrupts
 
