@@ -1,7 +1,6 @@
 <h1 align="center">Smart Lab Guardian</h1>
 <p align="center">
   <img src="proimages/circuit.png" width="500"
-  alt="Circuit Diagram">
 </p>
 
 ## 🔷 System Block Diagram
@@ -31,7 +30,9 @@ The input devices send signals to the LPC2148 microcontroller. Based on the rece
 |==========================================================================|
 
 
-![Preview](gifimages/rtc.png)
+<p align="center">
+  <img src="proimages/rtc.png" width="500"
+</p>
 
 ## ⏰ Real-Time Clock (RTC) Module
 
