@@ -1,2 +1,2 @@
 # Smart-Lab-Guardian
-![My Image](images/circuit.png)
+![My Image](project images/circuit.png)
